@@ -19,7 +19,10 @@ function findToolsForBolt(boltType) {
   return toolList;
 }
 
-// Example usage
-let boltType = "Phillips";
-let tools = findToolsForBolt(boltType);
-console.log(tools);
+function runScript() {
+	alert("스크립트 실행!");
+  let boltType = "Phillips";
+  let tools = findToolsForBolt(boltType);
+  console.log(tools);
+}
+
