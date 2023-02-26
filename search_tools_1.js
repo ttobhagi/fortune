@@ -20,7 +20,6 @@ function findToolsForBolt(boltType) {
 }
 
 function runScript() {
-	alert("스크립트 실행!");
   let boltType = "Phillips";
   let tools = findToolsForBolt(boltType);
   console.log(tools);
