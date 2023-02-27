@@ -22,6 +22,9 @@ function findToolsForBolt(boltType) {
 function runScript() {
   let boltType = "Phillips";
   let tools = findToolsForBolt(boltType);
-  console.log(tools);
+  for (let i = 0; i < (tools).length; i++) {
+  console.log(tools[i]);
+  }
+
 }
 
