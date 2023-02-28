@@ -27,8 +27,3 @@ function runScript() {
   }
 
 }
-
-window.onload = function() {
-  let button = document.querySelector("button");
-  button.onclick = runScript;
-};
